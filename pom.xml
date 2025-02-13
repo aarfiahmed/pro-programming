@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.app</groupId>
     <artifactId>pro-programming</artifactId>
-    <version>1.0.0</version>
+    <version>1</version>
     <name>pro programming</name>
     <description>Project for website pro-programming</description>
     <properties>
