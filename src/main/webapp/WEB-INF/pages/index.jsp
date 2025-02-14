@@ -12,7 +12,7 @@
     <div class="container">
         <h2>Core Java Concepts</h2>
         <ul>
-            <li><a href="/core-java/record">Multi Threading Concept</a></li>
+            <li><a href="/core-java/record">Record</a></li>
             <li><a href="/core-java/java-migration">Steps to Upgrade Java Version in a Legacy System</a></li>
             <li><a href="/core-java/changes-in-jdk8-and-above">Changes in JDK 8 and Above</a></li>
             <li><a href="/core-java/hashcode-equals-contract">Contract Between Equals And Hashcode Method</a></li>
