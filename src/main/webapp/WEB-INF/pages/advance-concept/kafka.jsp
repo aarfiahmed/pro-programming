@@ -1,40 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apache Kafka Overview</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-left: 4px solid #ccc;
-            overflow-x: auto;
-        }
-        .diagram {
-            font-family: monospace;
-            background-color: #f4f4f4;
-            padding: 10px;
-            margin: 20px 0;
-            white-space: pre;
-            border-left: 4px solid #ccc;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Apache Kafka Overview</h1>
 
 <p>Apache Kafka is a distributed event streaming platform that enables high throughput, low-latency data pipelines and real-time processing. It is designed for fault tolerance and horizontal scalability. Below are its key components and architecture.</p>

@@ -1,38 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Java Stream API Methods with Examples</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            margin: 10px 0;
-        }
-        code {
-            background-color: #eaeaea;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-        .code-block {
-            background-color: #333;
-            color: black;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 4px;
-            font-family: monospace;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Java Stream API Methods</h1>
 
 <p>The Stream API in Java provides a functional approach to processing collections of objects. Streams can transform, filter, and aggregate data using a pipeline of operations. Below is a list of common Stream methods along with examples.</p>

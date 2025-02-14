@@ -1,32 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Using Record to Model Immutable Data</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            padding: 20px;
-        }
-        h1 {
-            color: #005f9e;
-        }
-        h2 {
-            color: #007acc;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        a {
-            color: #005f9e;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Using Record to Model Immutable Data</h1>
 <p>The article discusses how records simplify the creation of immutable classes in Java. Here are the key points:</p>
 

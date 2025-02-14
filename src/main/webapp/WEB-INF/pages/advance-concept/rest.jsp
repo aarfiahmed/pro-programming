@@ -1,49 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Understanding REST</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f8f9fa;
-            color: #343a40;
-        }
-        h1, h2 {
-            color: #007bff;
-        }
-        h3 {
-            color: #6c757d;
-        }
-        code {
-            background-color: #e9ecef;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-        ul {
-            list-style-type: square;
-        }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin: 20px 0;
-        }
-        th, td {
-            border: 1px solid #dee2e6;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #007bff;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Understanding REST</h1>
 
 <p><strong>REST (Representational State Transfer)</strong> is an architectural style for designing networked applications. It is widely used in the development of web services and APIs. Here’s a detailed explanation of REST, including its principles, components, and how it works.</p>

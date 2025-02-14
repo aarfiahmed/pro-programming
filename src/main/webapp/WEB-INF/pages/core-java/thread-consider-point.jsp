@@ -1,36 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Factors to Decide Number of Threads in a Java Application</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            padding: 10px;
-            background-color: #f4f4f4;
-        }
-        h2 {
-            color: #333;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        code {
-            background-color: #eee;
-            padding: 2px 5px;
-            border-radius: 3px;
-        }
-        .note {
-            font-style: italic;
-            color: #555;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h2>Factors to Decide the Number of Threads in a Java Application</h2>
 
 <p>Deciding the optimal number of threads in a Java application depends on several factors, such as hardware, workload characteristics, and the application's design. Using too many threads can lead to inefficiency due to context switching, while too few threads can underutilize system resources. Here are the key factors to consider:</p>

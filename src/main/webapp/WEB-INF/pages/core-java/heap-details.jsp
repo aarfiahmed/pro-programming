@@ -1,45 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heap Memory Details in JDK 8 and Above</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        p {
-            margin: 10px 0;
-        }
-        code {
-            background-color: #eaeaea;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-        li {
-            margin: 5px 0;
-        }
-        pre {
-            background-color: #eaeaea;
-            padding: 10px;
-            border-radius: 4px;
-            overflow: auto;
-        }
-    </style>
+      <title>Heap Memory Details in JDK 8 and Above</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Heap Memory Details in JDK 8 and Above</h1>
 <p>The heap is a crucial part of memory management in Java, where objects are allocated during runtime. Understanding how the heap is structured and utilized is essential for optimizing Java applications.</p>
 

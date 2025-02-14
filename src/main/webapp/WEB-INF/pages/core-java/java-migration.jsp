@@ -1,19 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upgrading Java Version in a Legacy System</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
-        h1 { color: #333; }
-        h2 { color: #0056b3; }
-        ul { margin-left: 20px; }
-        li { margin-bottom: 10px; }
-        p { margin-bottom: 10px; }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Steps to Upgrade Java Version in a Legacy System</h1>
 
 <h2>1. Analyze the Current System</h2>

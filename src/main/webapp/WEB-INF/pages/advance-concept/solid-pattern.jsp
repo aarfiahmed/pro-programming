@@ -1,40 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOLID Principles in OOP</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            margin: 10px 0;
-        }
-        code {
-            background-color: #eaeaea;
-            padding: 3px 5px;
-            border-radius: 4px;
-        }
-        .code-block {
-            background-color: #333;
-            color: black;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 4px;
-            font-family: monospace;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>SOLID Principles in Object-Oriented Programming</h1>
 <p>SOLID is an acronym that represents five design principles that help developers write clean, maintainable, and scalable code. These principles are essential for writing better object-oriented programs. Let's explore each of the SOLID principles with examples.</p>
 

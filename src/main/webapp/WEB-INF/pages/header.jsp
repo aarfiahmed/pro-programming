@@ -6,8 +6,8 @@
         <div class="dropdown">
             <a href="#">Content</a>
             <div class="dropdown-content">
-                <a href="content.jsp">Java Stream</a>
-                <a href="content.jsp">Core Java</a>
+                <a href="/core-java/core-java-topic">Core Java Topic</a>
+                <a href="/advance-concept/advance-java-topic">Advance Java Topic</a>
             </div>
         </div>
         <a href="/about-us">About Us</a>

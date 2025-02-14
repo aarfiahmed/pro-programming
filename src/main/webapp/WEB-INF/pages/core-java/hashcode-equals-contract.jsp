@@ -1,38 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equals and HashCode Contract</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            margin: 10px 0;
-        }
-        code {
-            background-color: #eaeaea;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-        .code-block {
-            background-color: #333;
-            color: black;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 4px;
-            font-family: monospace;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+ <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Contract between <code>equals()</code> and <code>hashCode()</code> Methods in Java</h1>
 
 <p>The <code>equals()</code> and <code>hashCode()</code> methods are essential for comparing objects in Java. Both methods are used in collections like <code>HashSet</code>, <code>HashMap</code>, and <code>Hashtable</code>. These methods must follow a strict contract to ensure the correctness of operations involving hashing. Let’s explore the contract between these two methods.</p>

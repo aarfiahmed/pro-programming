@@ -1,31 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Executors in Java</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            overflow-x: auto;
-        }
-        code {
-            font-family: monospace;
-            color: #d63384;
-        }
-        h1, h2, h3 {
-            color: #0056b3;
-        }
-    </style>
+ <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+ <%@ include file="/WEB-INF/pages/header.jsp" %>
+    <div class="container">
 <h1>Executors in Java</h1>
 
 <p>The <strong>Executor Framework</strong> in Java is part of the <code>java.util.concurrent</code> package, and it provides a higher-level API for managing threads. It simplifies the process of creating, managing, and controlling a group of threads to execute tasks concurrently.</p>

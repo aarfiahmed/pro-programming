@@ -1,35 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microservices Explained</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f8f9fa;
-            color: #343a40;
-        }
-        h1, h2 {
-            color: #007bff;
-        }
-        h3 {
-            color: #6c757d;
-        }
-        code {
-            background-color: #e9ecef;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-        ul {
-            list-style-type: square;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Understanding Microservices</h1>
 
 <p>Microservices are an architectural style that structures an application as a collection of small, loosely coupled, and independently deployable services. Each service is designed to perform a specific business function and can be developed, deployed, and scaled independently.</p>

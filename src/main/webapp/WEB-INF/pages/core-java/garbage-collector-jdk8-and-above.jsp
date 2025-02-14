@@ -1,39 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+ <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
     <title>Garbage Collectors in JDK 8 and Above</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        p {
-            margin: 10px 0;
-        }
-        code {
-            background-color: #eaeaea;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-        li {
-            margin: 5px 0;
-        }
-    </style>
+
 </head>
 <body>
-
+<%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Garbage Collectors in JDK 8 and Above</h1>
 <p>Garbage collection in Java is an automatic process that manages memory by identifying and reclaiming memory that is no longer in use. Since JDK 8, several garbage collectors have been introduced or enhanced to improve memory management and application performance.</p>
 

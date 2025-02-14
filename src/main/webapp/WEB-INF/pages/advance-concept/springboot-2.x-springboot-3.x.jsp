@@ -1,19 +1,14 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Differences between Spring Boot 2.x and 3.x</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
-        h1 { color: #333; }
-        h2 { color: #0056b3; }
-        ul { margin-left: 20px; }
-        li { margin-bottom: 10px; }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
+    <%@ include file="/WEB-INF/pages/header.jsp" %>
 <h1>Differences between Spring Boot 2.x and 3.x</h1>
 
 <h2>1. Java Version Support</h2>
