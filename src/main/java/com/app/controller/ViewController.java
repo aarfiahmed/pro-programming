@@ -1,6 +1,5 @@
 package com.app.controller;
 
-import com.app.constant.AppConstant;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,6 +22,18 @@ public class ViewController {
     public String getCoreJavaView(@PathVariable String pageName) {
         log.info("returning core java page {}", pageName);
         return CORE_JAVA_VIEW_LOCATION + pageName;
+    }
+
+    @GetMapping("/")
+    public String getHome() {
+        log.info("home page");
+        return "index";
+    }
+
+    @GetMapping("/about-us")
+    public String getAboutUs() {
+        log.info("about us page");
+        return "about-us";
     }
 
 }
